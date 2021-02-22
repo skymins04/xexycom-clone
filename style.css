@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean');
+
+head {display: none;}
+a:link, a:hover, a:visited, a:active {text-decoration: none;}
+
+.active {display: block !important;}
+ul {list-style: none;padding: 0px;margin: 0px;}
+html, body {width: 100%;height: 100%;margin: 0px;font: 12px 'Montserrat', 'Noto Sans KR', sans-serif;}
+header {width: 100%;position: fixed;}
+
+.header-wrap {background-color: #000000;color: #FFFFFF;margin: 0px;width: 100%;height: 94px;display: flex;justify-content: space-around;}
+
+.nowTit {font-size: 9px;display: flex;margin-top: 55px;}
+.box {display: none;}
+.flag a {color: #FFFFFF;font-size: 9px;}
+
+.category {display: flex;width: 270px;justify-content: space-between;margin-top: 55px;}
+.category a {color: #FFFFFF;font-size: 13px;}
+
+.basic {display: none;margin-top: 19px;}
+.fix {display: none;}
+
+.loginArea ul {display: flex;width: 297px;height: 60px;justify-content: space-between;margin-top: 55px;}
+.loginArea ul li a {color: #FFFFFF;font-size: 13px;}
+
+.searchArea ul {display: flex;margin-top: 55px;}
