@@ -1,114 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>젝시믹스 공식 온라인 스토어(cloned)</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://www.xexymix.com/design/xexymix/image/common/xexymix.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <title>젝시믹스 공식 온라인 스토어(클론)</title>
 </head>
 <body>
-    <script src="script.js"></script>
+    <header>
+        <div class="mainTopBar">
+            <div class="langBoxArea">
+                <div class="nowLang">
+                    <a>KOR</a>
+                    <img src="https://xexymix.jpg3.kr/xexymix/main/language_icon.png">
+                </div>
+                <div class="box">
+                    <div class="flag">
+                        <a href="#">KOR</a>
+                        <a href="#">ENG</a>
+                        <a href="#">CHN</a>
+                        <a href="#">JPN</a>
+                    </div>
+                </div>
+            </div>
+            <div class="categoryArea">
+                <a href="#">NEW</a>
+                <a href="#">BEST</a>
+                <a href="#">WOMEN</a>
+                <a href="#">MEN</a>
+            </div>
+            <div class="toplogoArea">
+                <a href="#" class="default"><img src="https://xexymix.jpg3.kr/xexymix/introimg/header_logo.png"></a>
+                <a href="#" class="fix active"><img src="https://xexymix.jpg3.kr/xexymix/introimg/header_logo_fix.png"></a>
+            </div>
+            <div class="searchArea">
+                <a href="#"><img src="https://xexymix.jpg3.kr/xexymix/introimg/btn_view.png"></a>
+                <a href="#"><img src="https://xexymix.jpg3.kr/xexymix/introimg/cart_ico_pc6.png"></a>
+            </div>
+            <div class="loginArea">
+                <a href="#">강사회원</a>
+                <a href="#">기업회원</a>
+                <a href="#">로그인</a>
+                <a href="#">회원가입</a>
+            </div>
+        </div>
+        <div class="cateBar">
+            <a href="#" class="btn-menu">
+                <div class="all-menu"> 
+                    <span></span> 
+                    <span></span> 
+                    <span></span> 
+                </div>
+                <div class="cate-txt">CATEGORY</div>
+            </a>
+        </div>
+    </header>
     <div class="wrap">
-        <header>
-            <div class="header-wrap">
-                <div class="multiShop">
-                    <div class="nowTit">
-                        KOR
-                        <img src="https://xexymix.jpg3.kr/xexymix/main/language_icon.png">
-                    </div>
-                    <div class="box">
-                        <div class="flag">
-                            <a href="#">KOR</a>
-                            <a href="#">ENG</a>
-                            <a href="#">CHN</a>
-                            <a href="#">JPN</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="category">
-                    <a href="#">NEW</a>
-                    <a href="#">BEST</a>
-                    <a href="#">WOMEN</a>
-                    <a href="#">MEN</a>
-                </div>
-                <div class="topLogo">
-                    <a href="#" class="basic active"><img src="https://xexymix.jpg3.kr/xexymix/introimg/header_logo.png"></a>
-                    <a href="#" class="fix"><img src="https://xexymix.jpg3.kr/xexymix/introimg/header_logo_fix.png"></a>
-                </div>
-                <div class="loginArea">
-                    <ul>
-                        <li><a href="#">강사회원</a></li>
-                        <li><a href="#">기업회원</a></li>
-                        <li><a href="#">로그인</a></li>
-                        <li><a href="#">회원가입</a></li>
-                    </ul>
-                </div>
-                <div class="searchArea">
-                    <ul>
-                        <li>
-                            <p class="searchBtn"><img src="https://xexymix.jpg3.kr/xexymix/introimg/btn_view.png"></p>
-                        </li>
-                        <li class="basketBtn"> 
-                            <a href="#"><img src="https://xexymix.jpg3.kr/xexymix/introimg/cart_ico_pc6.png"><span class="ea"><span id="user_basket_quantity" class="user_basket_quantity">0</span></span></a> 
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="tab-fixed-wrap">
-                <a href="#" class="btn-menu">
-                    <p class="all-menu"> 
-                        <span id="ham1"></span> 
-                        <span id="ham2"></span> 
-                        <span id="ham3"></span> 
-                    </p>
-                    <p class="cate-txt">CATEGORY</p>
-                </a>
-                <ul>
-                    <li><a href="#" class="on" style="font-weight: 600;">1 + 1</a></li>
-                    <li><a href="#"><img src="https://xexymix.jpg3.kr/xexymix/2020/main/cate_bl_logo.png"> 블랙라벨</a></li>
-                    <li><a href="#" class="on"><img src="https://xexymix.jpg3.kr/xexymix/2020/main/cate_mens_logo.png"> 맨즈</a></li>
-                    <li><a href="#" class="on">신상품</a></li>
-                    <li><a href="#">상의</a></li>
-                    <li><a href="#">하의</a></li>
-                    <li><a href="#">애슬레져</a></li>
-                    <li><a href="#">아우터</a></li>
-                    <li><a href="#">슈즈</a></li>
-                    <li><a href="#" style="color: #ff6d44;">시즌오프</a></li>
-                    <li><a href="#" style="color: #27a2d9;">스윔웨어</a></li>
-                    <li><a href="#">악세사리</a></li>
-                    <li><a href="#">커뮤니티</a></li>
-                </ul>
-            </div>
-            <div id="hd_search" class="hd_search ani5 show">
-                <h1>검색</h1>
-                <form action="" method="post" name="search">    <fieldset>
-                    <div class="search_wrap"> 
-                        <input name="search" onkeydown="CheckKey_search();" value="" class="MS_search_word input-keyword"><a href="javascript:prev_search();search_submit();"><img src="https://xexymix.jpg3.kr/xexymix/main/aside_search_btn.png"></a> 
-                    </div>
-                </fieldset>
-                </form>    <dl class="word">
-                    <!--사용자태그-->
-                    <dt>인기검색어</dt>
-            <dd>
-            <a href="/shop/shopbrand.html?search=&amp;prize1=x-2">x-2</a>
-            <a href="/shop/shopbrand.html?search=&amp;prize1=5127">5127</a>
-            <a href="/shop/shopbrand.html?search=&amp;prize1=루즈핏 커버업 와펜패치 티셔츠">루즈핏 커버업 와펜패치 티셔츠</a>
-            <a href="/shop/shopbrand.html?search=&amp;prize1=에어로 무브온">에어로 무브온</a>
-            <a href="/shop/shopbrand.html?search=&amp;prize1=시그니처 380N 서포트탑">시그니처 380N 서포트탑</a>
-            <a href="/shop/shopbrand.html?search=&amp;prize1=크롭">크롭</a>
-            <a href="/shop/shopbrand.html?search=&amp;prize1=집업">집업</a>
-            <a href="/shop/shopbrand.html?search=&amp;prize1=브라탑">브라탑</a>
-            <a href="/shop/shopbrand.html?search=&amp;prize1=조거">조거</a>
-            <a href="/shop/shopbrand.html?search=&amp;prize1=부츠컷">부츠컷</a>
-            <a href="/shop/shopbrand.html?search=&amp;prize1=후드">후드</a>
-            <a href="/shop/shopbrand.html?search=&amp;prize1=하이플렉시">하이플렉시</a>
-            <a href="/shop/shopbrand.html?search=&amp;prize1=아이스페더">아이스페더</a>
-            <a href="/shop/shopbrand.html?search=&amp;prize1=마스크">마스크</a>
-            <a href="/shop/shopbrand.html?search=&amp;prize1=360N">360N</a>
-            </dd>    </dl>
-                <div class="searchClose"><img src="https://xexymix.jpg3.kr/xexymix/PL/m/m_close_btn_black.png"></div>
-            </div>
-        </header>
+
     </div>
+    <footer>
+
+    </footer>
 </body>
 </html>

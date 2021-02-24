@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean');
+
+head {display: none;}
+a:link, a:hover, a:visited, a:active {text-decoration: none;}
+
+.active {display: block !important;}
+ul, p {list-style: none;padding: 0px;margin: 0px;}
+html, body {width: 100%;height: 100%;margin: 0px;font: 12px 'Montserrat', 'Noto Sans KR', sans-serif;}
+header {width: 100%;position: fixed;}
+
+.header-wrap {background-color: #000000;color: #FFFFFF;margin: 0px;width: 100%;height: 94px;display: flex;justify-content: space-between;}
+
+.nowTit {font-size: 9px;display: flex;margin-top: 55px;margin-left: 35px;}
+.nowTit img {margin-left: 5px;}
+.box {display: none;}
+.flag a {color: #FFFFFF;font-size: 9px;}
+
+.category {display: flex;width: 270px;justify-content: space-between;margin-top: 55px;}
+.category a {color: #FFFFFF;font-size: 13px;}
+
+.basic {display: none;margin-top: 19px;}
+.fix {display: none;}
+
+.loginArea ul {display: flex;width: 297px;height: 60px;justify-content: space-between;margin-top: 55px;}
+.loginArea ul li a {color: #FFFFFF;font-size: 13px;}
+
+.searchArea ul {display: flex;margin-top: 55px;}
+.searchArea ul li {margin-right: 20px;}
+
+.tab-fixed-wrap {position:fixed;background-color: white; display: flex;height: 60px;width: 100%;}
+.all-menu span {position:absolute; background-color: black; width: 20px; height: 3px;}
+#ham1 {top: 19px;left: 25px;}
+#ham2 {top: 27px;left: 25px;}
+#ham3 {top: 35px;left: 25px;}
+.cate-txt {position:absolute;font-size: 14px;width: max-content;margin: 0px;font-weight: 500;color: black;top: 20px;left: 60px;}
+.tab-fixed-wrap ul {position:absolute;display: flex; width: 1500px;top: 20px; left: calc((1920px - 1150px)/2);}
+.tab-fixed-wrap ul li {width: max-content; margin: 0px 20px; vertical-align: middle;}
+.tab-fixed-wrap ul li a {font-size: 15px;color: black;}
+/*.tab-fixed-wrap ul li a img {margin-bottom: 3px;}*/
