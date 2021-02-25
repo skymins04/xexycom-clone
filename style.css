@@ -10,7 +10,7 @@ html, body, p, ul {margin: 0; padding: 0; font: 12px 'Montserrat', 'Noto Sans KR
 * header css start
 */
 
-header {position: fixed; width: 100%;}
+header {position: fixed; width: 100%; z-index: 10;}
 
 /*mainTopBar css start*/
 .mainTopBar {position: absolute; width: 100%; height: 60px; background-color: black; }
@@ -58,4 +58,23 @@ header {position: fixed; width: 100%;}
 
 /*
 * header css end
+*/
+
+
+/*
+* .wrap css start
+*/
+
+/*.main-jumbotron css start*/
+
+.main-jumbotron {position: relative; width: 100%; height: 860px;}
+.main-jumbotron ul {display: flex; height: 100%;}
+.main-jumbotron ul li {position: relative; height: 100%; margin: 0px 10px;}
+.main-jumbotron ul li a {height: 100%;}
+.main-jumbotron ul li a img {}
+
+/*.main-jumbotron css end*/
+
+/*
+* .wrap css end
 */
