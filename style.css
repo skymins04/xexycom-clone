@@ -115,7 +115,7 @@ header {position: fixed; width: 100%; z-index: 5;}
 * .floating-wrap css start
 */
 
-.floating-wrap {position: fixed; width: 100%; height: 100%; top: 0; z-index: 10;}
+.floating-wrap {position: fixed; width: 100%; height: 100%; top: 0; z-index: 4;}
 
 .floating-wrap .ad {bottom: 30px; left: 30px;}
 .floating-wrap .ad, .floating-wrap .ad div {position: absolute; height: 162px; width: 162px;}
