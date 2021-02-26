@@ -11,7 +11,7 @@ body{overflow-x: hidden;}
 * header css start
 */
 
-header {position: fixed; width: 100%; z-index: 10;}
+header {position: fixed; width: 100%; z-index: 5;}
 
 /*mainTopBar css start*/
 .mainTopBar {position: absolute; width: 100%; height: 60px; background-color: black; }
@@ -109,4 +109,29 @@ header {position: fixed; width: 100%; z-index: 10;}
 
 /*
 * .wrap css end
+*/
+
+/*
+* .floating-wrap css start
+*/
+
+.floating-wrap {position: fixed; width: 100%; height: 100%; top: 0; z-index: 10;}
+
+.floating-wrap .ad {bottom: 30px; left: 30px;}
+.floating-wrap .ad, .floating-wrap .ad div {position: absolute; height: 162px; width: 162px;}
+.floating-wrap .ad div a {position: absolute; width: 100%; height: 100%;}
+.floating-wrap .ad div:nth-of-type(1) {background-image: url(https://xexymix.jpg3.kr/xexymix/2020/main/210226_floating.png);}
+.floating-wrap .ad div:nth-of-type(2) {background-image: url(https://xexymix.jpg3.kr/xexymix/2020/main/210225_floating.png);}
+.floating-wrap .ad div:nth-of-type(3) {background-image: url(https://xexymix.jpg3.kr/xexymix/2020/main/210219_floating.png);}
+.floating-wrap .ad div:nth-of-type(4) {background-image: url(https://xexymix.jpg3.kr/xexymix/2020/main/210223_floating.png);}
+
+.floating-wrap .btn-box {position: absolute;  right: 20px; bottom: 20px;}
+.floating-wrap .btn-box ul {display: flex; position: relative; width: 50px; height: 215px; margin-bottom: 15px; padding: 3px 0; background-color: white; border: 1px solid #dfdfdf; border-radius: 25px; text-align: center; flex-direction: column; justify-content: space-between;}
+.floating-wrap .btn-box ul li {position: relative; height: 52px; line-height: 52px;}
+.floating-wrap .btn-box ul li:after {content: ''; width: 15px; height: 1px; background: #d4d4d4; position: absolute; bottom: 0; left: 45%; margin-left: -5px;}
+.floating-wrap .btn-box ul li img {margin-top: 10px;}
+.floating-wrap .btn-box .store-img {position: relative;}
+
+/*
+* .floating-wrap css end
 */
