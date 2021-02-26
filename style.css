@@ -70,10 +70,24 @@ header {position: fixed; width: 100%; z-index: 10;}
 .main-jumbotron {position: relative; width: 100%; height: 860px;}
 .main-jumbotron ul {display: flex; height: 100%;}
 .main-jumbotron ul li {position: relative; height: 100%; margin: 0px 10px;}
-.main-jumbotron ul li a {height: 100%;}
-.main-jumbotron ul li a img {}
+.main-jumbotron ul li a {height: max-content;}
+.main-jumbotron ul li a .banner-title {display: flex; position: absolute; bottom: 100px; color: white; flex-direction: column;}
+.main-jumbotron ul li a .banner-title .middle-txt {font-size: 50px; font-weight: bold; line-height: 60px; margin-left: 45px;}
+.main-jumbotron ul li a .banner-title .mini-txt {font-size: 20px; font-weight: 500; margin-left: 50px; margin-top: 30px;}
 
 /*.main-jumbotron css end*/
+
+/* b-area css start */
+
+.b-area {display: flex; position: relative; width: 100%; height: max-content; margin: 150px 0px; justify-content: center;}
+.b1 {position: relative; background-image: url(https://xexymix.jpg3.kr/xexymix/2020/main/sub_banner_homet.jpg); width: 700px; height: 220px; margin-right: 20px;}
+.b2 {position: relative; background-image: url(https://xexymix.jpg3.kr/xexymix/2020/main/sub_banner_3.jpg); width: 700px; height: 220px; margin-left: 20px;}
+.b-area div a {position: absolute; width: 100%; height: 100%;} 
+.b-area div a span {position: absolute; left: 42px; color: black;}
+.b-area div a span:nth-of-type(1) {top: 40px; font-size: 18px; font-weight: bolder;}
+.b-area div a span:nth-of-type(2) {bottom: 70px; font-size: 18px; font-weight: 500;}
+
+/* b-area css end */
 
 /*
 * .wrap css end
